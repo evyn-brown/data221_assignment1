@@ -10,6 +10,6 @@ data = {
 #create data frame from existing data
 dataFrame=pd.DataFrame(data)
 
-#add new column, a
+#add new column, column D which is the sum of values in the rows of column A and B
 dataFrame["D"]=dataFrame["A"]+dataFrame["B"]
 print(dataFrame)
