@@ -11,5 +11,5 @@ data = {
 dataFrame=pd.DataFrame(data)
 
 #add new column, column D which is the sum of values in the rows of column A and B
-dataFrame["D"]=dataFrame["C"]*(dataFrame["A"]+dataFrame["B"])
+dataFrame["D"]=dataFrame["A"]*(dataFrame["C"]+dataFrame["B"])
 print(dataFrame)

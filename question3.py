@@ -1,5 +1,4 @@
 # given a list of pairs (x,y), compute x^y for each pair on list, computed and stored in a new list
-
 # define function to take input of a list and compute the exponents of pairs
 def exponentiationOfList(pairs=[]):
     # define function to compute exponentiation for all positive integers
