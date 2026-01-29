@@ -7,8 +7,11 @@ def secondToTime(seconds=0):
     if seconds < 0:
         return "seconds must be a positive value, exiting program"
         # integer division to get hours (1h=3600s)
+
+    #return error if user inputs too many seconds
     elif seconds>86400:
         return "Input seconds exceed number of seconds in a day, exiting program"
+
     hour = seconds // 3600
     # remainder of second/3600h to get remaining seconds
     remainingSeconds = seconds % 3600
