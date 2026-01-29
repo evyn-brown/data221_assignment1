@@ -31,7 +31,7 @@ for i in range(0, len(sortedList)):
 # assign variable to first index where number is greater than x
 firstIndexGreaterThanX = indexGreaterThanX[0]
 
-# print resilt to user
+# print result to user
 print("sorted list: ", sortedList)
 print("X value: ", x)
 print("First index greater than X: ", firstIndexGreaterThanX, " With a value of: ", valueGreaterThanX[0])

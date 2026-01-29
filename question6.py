@@ -30,6 +30,6 @@ def returnDictionary(numbers=[]):
     # return dictionary
     return newDictionary
 
-
+#example input/output
 print([3, 1, 2, 3, 4, 2])
 print(returnDictionary(numbers=[3, 1, 2, 3, 4, 2]))

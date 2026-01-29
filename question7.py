@@ -1,11 +1,14 @@
-seconds=int(input("Enter a number of seconds past midnight: "))
+#example input
+#seconds=int(input("Enter a number of seconds past midnight: "))
 
 # function to receive seconds as input and convert it to the designated time of day
 def secondToTime(seconds=0):
     # return error message if user enters negative seconds value
     if seconds < 0:
-        return "seconds must be a positive value"
+        return "seconds must be a positive value, exiting program"
         # integer division to get hours (1h=3600s)
+    elif seconds>86400:
+        return "Input seconds exceed number of seconds in a day, exiting program"
     hour = seconds // 3600
     # remainder of second/3600h to get remaining seconds
     remainingSeconds = seconds % 3600
@@ -35,4 +38,5 @@ def secondToTime(seconds=0):
     # return formated time
     return formatTime
 
-print(secondToTime(seconds))
+#example input/output
+print(secondToTime(100))
