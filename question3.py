@@ -29,5 +29,5 @@ def exponentiationOfList(pairs=[]):
     # print the calculations to terminal
     print(exponentsComputed)
 
-
+#example input/output
 exponentiationOfList(pairs=[[1, 2], [3, -1], [5, 6], [7, 8]])
