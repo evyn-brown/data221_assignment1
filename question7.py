@@ -1,4 +1,4 @@
-seconds=int(input("Enter a number of seconds past midnight: "))
+
 
 # function to receive seconds as input and convert it to the designated time of day
 def secondToTime(seconds=0):
@@ -35,4 +35,5 @@ def secondToTime(seconds=0):
     # return formated time
     return formatTime
 
-print(secondToTime(seconds))
+#example input/output
+print(secondToTime(30))
