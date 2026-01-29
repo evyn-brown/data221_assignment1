@@ -35,4 +35,5 @@ def stringToDictionary(userList=[]):
     # function returns dictionary
     return print(dictionary)
 
+#example input/output
 stringToDictionary(["data", "science"])
