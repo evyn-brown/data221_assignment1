@@ -33,8 +33,9 @@ def stringToDictionary(userList=[]):
         dictionary.update(newItem)
 
     # function returns dictionary
-    return print(dictionary)
+    return dictionary
 
 
 #example input/output:
-stringToDictionary(["data", "science"])
+input=["data", "science"]
+print(stringToDictionary(input))

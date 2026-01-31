@@ -42,4 +42,5 @@ def secondToTime(seconds=0):
     return formatTime
 
 #example input/output
-print(secondToTime(100))
+time=100
+print(secondToTime(time))

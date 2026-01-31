@@ -1,10 +1,5 @@
 import math
 
-# receive input values from user of raddi of 2 circles
-raddiCircle1 = float(input("Enter the radius of the first circle: "))
-raddiCircle2 = float(input("Enter the radius of the second circle: "))
-
-
 # create function to return percentage of circle that could be covered by smaller circle
 def circleAreaCoverage(radiusOfCircle1, radiusOfCircle2):
     # return non if user inputs negative raddi
@@ -37,6 +32,9 @@ def circleAreaCoverage(radiusOfCircle1, radiusOfCircle2):
     return percentageLarger
 
 
+#example input/output:
+raddiCircle1=-1
+raddiCircle2=8
 # call function
 result = circleAreaCoverage(raddiCircle1, raddiCircle2)
 

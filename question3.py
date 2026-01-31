@@ -30,4 +30,5 @@ def exponentiationOfList(pairs=[]):
     print(exponentsComputed)
 
 #example input/output:
-exponentiationOfList(pairs = [[5, 2], [3, -1], [4, 3], [2, 0]])
+pairs = [[5, 2], [3, -1], [4, 3], [2, 0]]
+exponentiationOfList(pairs)
